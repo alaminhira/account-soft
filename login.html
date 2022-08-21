@@ -6,16 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login TO Bap Er Bank</title>
+    <!-- Tailwind Script -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <h1>Welcome to <span>Bapp Er Bank</span>!!!</h1>
-    <form id="login-form">
-        <h3>Please Login</h3>
-        <input type="email" placeholder="Your Email Address">
-        <input type="password" placeholder="Your Password">
-        <button type="submit">Submit</button>
-    </form>
+    <header class="text-center my-8">
+        <h1 class="text-5xl font-semibold">Welcome to <span class="text-indigo-700">Bank Soft</span>!!!</h1>
+    </header>
+    <main>
+        <section class="bg-blue-200 w-9/12 mx-auto p-10">
+            <form id="login-form">
+                <h3 class="text-3xl mb-3">Please Login</h3>
+                <input class="block w-3/4 px-2 py-1" type="email" placeholder="Your Email Address">
+                <input class="block w-3/4 px-2 py-1 my-3" type="password" placeholder="Your Password">
+                <button class="bg-cyan-500 px-8 py-2 rounded-xl text-white text-xl font-semibold hover:bg-cyan-600"
+                    type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
 </body>
 
 </html>
