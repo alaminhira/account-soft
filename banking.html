@@ -13,20 +13,42 @@
     <main>
         <section class="bg-blue-200 mt-14 p-7">
             <div class="account w-3/4 mx-auto">
-                <h1 class="text-5xl text-sky-500 font-semibold text-center mb-14">Let's Get Some <span
-                        class="text-sky-700">Mooooooney!!!</span></h1>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="bg-teal-400 p-5 text-white font-semibold rounded-xl" id="diposit">
-                        <p class="text-2xl">Diposit</p>
-                        <h4 class="text-4xl mt-1">$00</h4>
+                <div class="summary">
+                    <h1 class="text-5xl text-sky-500 font-semibold text-center mb-14">Let's Get Some <span
+                            class="text-sky-700">Mooooooney!!!</span></h1>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="bg-teal-400 p-5 text-white font-semibold rounded-xl" id="diposit">
+                            <p class="text-2xl">Diposit</p>
+                            <h4 class="text-4xl mt-1">$00</h4>
+                        </div>
+                        <div class="bg-emerald-400 p-5 text-white font-semibold rounded-xl" id="withdraw">
+                            <p class="text-2xl">Diposit</p>
+                            <h4 class="text-4xl mt-1">$00</h4>
+                        </div>
+                        <div class="bg-red-400 p-5 text-white font-semibold rounded-xl" id="balance">
+                            <p class="text-2xl">Diposit</p>
+                            <h4 class="text-4xl mt-1">$1245</h4>
+                        </div>
                     </div>
-                    <div class="bg-emerald-400 p-5 text-white font-semibold rounded-xl" id="withdraw">
-                        <p class="text-2xl">Diposit</p>
-                        <h4 class="text-4xl mt-1">$00</h4>
+                </div>
+                <div class="grid grid-cols-2 gap-4 mt-14">
+                    <div class="bg-blue-500 text-white p-8 rounded-xl">
+                        <h3 class="text-3xl font-semibold">Please Deposit</h3>
+                        <form class="ml-10">
+                            <input class="block w-full px-3 py-2 my-4" type="number"
+                                placeholder="$ amount you want to deposit">
+                            <button class="bg-blue-600 hover:bg-blue-800 font-semibold rounded-lg py-2 px-9 "
+                                type="button">Deposit</button>
+                        </form>
                     </div>
-                    <div class="bg-red-400 p-5 text-white font-semibold rounded-xl" id="balance">
-                        <p class="text-2xl">Diposit</p>
-                        <h4 class="text-4xl mt-1">$1245</h4>
+                    <div class="bg-indigo-400 text-white p-8 rounded-xl">
+                        <h3 class="text-3xl font-semibold">Please Deposit</h3>
+                        <form class="ml-10">
+                            <input class="block w-full px-3 py-2 my-4" type="number"
+                                placeholder="$ amount you want to deposit">
+                            <button class="bg-indigo-600 hover:bg-indigo-800 font-semibold rounded-lg py-2 px-9 "
+                                type="button">Deposit</button>
+                        </form>
                     </div>
                 </div>
             </div>
