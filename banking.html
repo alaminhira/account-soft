@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="mt-14">
+        <h1 class="text-5xl text-sky-500 font-semibold text-center mb-14">Let's Get Some <span
+                class="text-sky-700">Mooooooney!!!</span></h1>
+    </header>
+    <main>
+        <section class="">
+            <div class="account w-3/4 mx-auto">
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="bg-teal-400 p-5 text-white font-semibold rounded-xl" id="diposit">
+                        <p class="text-2xl">Diposit</p>
+                        <h4 class="text-4xl mt-1">$<span id="deposit-total">00</span></h4>
+                    </div>
+                    <div class="bg-emerald-400 p-5 text-white font-semibold rounded-xl" id="withdraw">
+                        <p class="text-2xl">Withdraw</p>
+                        <h4 class="text-4xl mt-1">$<span id="withdraw-total">00</span></h4>
+                    </div>
+                    <div class="bg-red-400 p-5 text-white font-semibold rounded-xl" id="balance">
+                        <p class="text-2xl">Balance</p>
+                        <h4 class="text-4xl mt-1">$<span id="balance-total">00</span></h4>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4 mt-14">
+                    <div class="bg-blue-500 p-8 rounded-xl">
+                        <h3 class="text-3xl text-white font-semibold">Please Deposit</h3>
+                        <form class="ml-10" autocomplete="off">
+                            <input id="deposit-amount" class="block w-full px-3 py-2 my-4" type="number"
+                                placeholder="$ amount you want to deposit">
+                            <button id="btn-deposit"
+                                class="bg-blue-600 hover:bg-blue-800 text-white font-semibold rounded-lg py-2 px-9 "
+                                type="button">Deposit</button>
+                        </form>
+                    </div>
+                    <div class="bg-indigo-400 p-8 rounded-xl">
+                        <h3 class="text-3xl text-white font-semibold">Please Deposit</h3>
+                        <form class="ml-10">
+                            <input id="withdraw-amount" class="block w-full px-3 py-2 my-4" type="number"
+                                placeholder="$ amount you want to deposit">
+                            <button id="btn-withdraw"
+                                class="bg-indigo-600 text-white hover:bg-indigo-800 font-semibold rounded-lg py-2 px-9 "
+                                type="button">Deposit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bankist.js"></script>
+</body>
+
+</html>
